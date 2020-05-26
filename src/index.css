@@ -5,9 +5,163 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  animation: bgcolorchange 10s infinite alternate;
+  font-family: 'Old Standard TT', serif;
+  max-height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#mug {
+  max-height: 330px;
+  align-items: right;
+  /* border-style: double;
+  animation: bordercolorchange 10s infinite alternate;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px; */
+
+}
+
+.profile-pic {
+  align-items: right;
+}
+
+.bio-and-pic {
+  display: flex;
+}
+
+.hero {
+  width:100%;
+  height:100%;
+  font-weight:bold;
+}
+
+
+h2 {
+    font-size: 32px;
+    /* color: white; */
+    animation: colorchange 10s infinite alternate;
+}
+
+p {
+    color: white;
+    /* animation: colorchange 10s infinite alternate; */
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Old Standard TT';
+}
+
+
+.image {
+  max-height: 280px;
+  /* width: 280px; */
+
+}
+
+.nav-header {
+  animation: bgcolorchange 10s infinite alternate;
+}
+
+.title {
+  animation: colorchange 10s infinite alternate;
+  font-family: 'Old Standard TT', serif;
+}
+
+.button {
+  /* background-color: #375885; */
+  animation: bgcolorchange 10s infinite alternate;
+  color: white;
+  border-color: black;
+}
+
+.aboutButtons {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+h3 {
+  font-size: 28px;
+  color: white;
+}
+
+#contact {
+  /* border: 2px solid grey; */
+  border: 5px double white;
+  /* color: black; */
+  margin-top: 25px;
+  animation: bgcolorchange 10s infinite alternate;
+  max-width: 600px;
+  width:100%;
+  height:100%;
+  font-weight:bold;
+  animation: bordercolorchange 10s infinite alternate;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+}
+
+label {
+    color: white;
+    text-align: left;
+}
+
+
+input {
+  display: flex;
+}
+
+.notification {
+  /* background-color: #99cc99; */
+  animation: bgcolorchange 10s infinite alternate;
+
+}
+
+.borderEffect {
+  border: 5px double;
+  animation: bordercolorchange 10s infinite alternate;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.buttons {
+  text-align: center;
+  
+}
+
+@keyframes colorchange {
+  0% { color: #A6192E }
+  50% { color: #0a3564 }
+  100% { color: #330066 }
+}
+
+@keyframes bgcolorchange {
+  0% { background-color: #99cc99 }
+  50% { background-color: #81a9c1 }
+  100% { background-color: #375885 }
+}
+
+@keyframes bordercolorchange {
+  0% { border-color: #A6192E }
+  50% { border-color: #0a3564 }
+  100% { border-color: #330066 }
+}
+
+
+
+/* @keyframes bordercolorchange {
+  0% { border-color: #A6192E }
+  20% { border-color: #0a3564 }
+  40% { border-color: #330066 }
+  60% { border-color: #99cc99 }
+  80% { border-color: #81a9c1 }
+  100% { border-color: #375885 }
+} */
