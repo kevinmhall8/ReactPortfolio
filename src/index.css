@@ -1,8 +1,5 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   animation: bgcolorchange 10s infinite alternate;
@@ -10,36 +7,21 @@ body {
   max-height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 
 #mug {
   max-height: 330px;
   align-items: right;
-  /* border-style: double;
-  animation: bordercolorchange 10s infinite alternate;
-  padding-top: 2px;
-  padding-left: 2px;
-  padding-right: 2px;
-  padding-bottom: 2px; */
-
 }
 
-.profile-pic {
-  align-items: right;
-}
 
-.bio-and-pic {
+/* .bio-and-pic {
   display: flex;
-}
+} */
 
 .hero {
   width:100%;
   height:100%;
-  font-weight:bold;
+  /* font-weight:bold; */
 }
 
 
@@ -47,14 +29,15 @@ h2 {
     font-size: 32px;
     /* color: white; */
     animation: colorchange 10s infinite alternate;
+    font-weight:bold;
 }
 
 p {
     color: white;
-    /* animation: colorchange 10s infinite alternate; */
+    animation: colorchange 10s infinite alternate;
+    font-family: 'News Cycle', sans-serif;
     text-align: left;
-    font-size: 17px;
-    font-family: 'Old Standard TT';
+    font-size: 20px;
 }
 
 
@@ -118,7 +101,6 @@ input {
 }
 
 .notification {
-  /* background-color: #99cc99; */
   animation: bgcolorchange 10s infinite alternate;
 
 }
@@ -136,6 +118,15 @@ input {
   text-align: center;
   
 }
+
+footer {
+  animation: bgcolorchange 10s infinite alternate;
+  position: relative;
+  bottom: 0;
+  width: 100%
+}
+
+
 
 @keyframes colorchange {
   0% { color: #A6192E }
@@ -165,3 +156,17 @@ input {
   80% { border-color: #81a9c1 }
   100% { border-color: #375885 }
 } */
+
+
+.navbar-item {
+  /* animation: bgcolorchange 10s infinite alternate; */
+  animation: colorchange 10s infinite alternate;
+
+}
+
+
+.navbar-item:hover {
+  text-decoration: underline;
+  text-decoration: bold;
+  /* color: white; */
+}

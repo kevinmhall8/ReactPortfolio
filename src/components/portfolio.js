@@ -17,7 +17,7 @@ const Portfolio = () => (
                   </div>
                   <div className="column">
                     <div className="track-tv-bio borderEffect"> 
-                      <h3 className="is-size-2">Track TV</h3>
+                    <h2 className="is-size-2 is-centered">Track TV</h2>
                       <br />
                       <p>Track TV is a one-stop hub for all your favorite TV shows, or any new shows you are
                         interested in starting. Using Track TV to keep a log of your current shows means spending
@@ -28,7 +28,7 @@ const Portfolio = () => (
                         <span>Deployed</span>
                       </button>
                       <button className="button is-rounded" onclick="window.location.href='https://github.com/yankidank/TV-Tracker';">
-                        <span>GitHub</span>
+                      <i class="fab fa-github"></i>
                       </button>
                     </div>
                     </div>
@@ -42,7 +42,9 @@ const Portfolio = () => (
                   </div>
                   <div className="column">
                     <div className="we-trivia-bio borderEffect">
-                      <h3 className="is-size-2">WeTrivia</h3>
+                        
+                        <h2 className="is-size-2 is-centered">WeTrivia</h2>
+
                       <br />
                       <p>WeTrivia is a fun, fast-paced trivia competition for you and your friends to test your knowledge in a variety of interesting
                         subjects. Challenge other players to beat your high score, and share your experiences using an innovative chat feature as you play.
@@ -52,7 +54,7 @@ const Portfolio = () => (
                         <span>Deployed</span>
                       </button>
                       <button className="button is-rounded" onclick="window.location.href='https://github.com/nickrayj45/WeTrivia';">
-                        <span>GitHub</span>
+                      <i class="fab fa-github"></i>
                       </button>
                     </div></div>
                     </div>

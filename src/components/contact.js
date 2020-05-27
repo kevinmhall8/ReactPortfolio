@@ -12,7 +12,7 @@ const Contact = () => (
                   <div className="field">
                     <label className="label">Name</label>
                     <div className="control">
-                      <input className="input" type="text" placeholder="Text input" />
+                      <input className="input" type="text" />
                     </div>
                   </div>
                   <div className="field">
@@ -23,7 +23,6 @@ const Contact = () => (
                         <i className="fas fa-envelope" />
                       </span>
                       <span className="icon is-small is-right">
-                        <i className="fas fa-exclamation-triangle" />
                       </span>
                     </div>
                   </div>

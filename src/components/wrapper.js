@@ -6,7 +6,7 @@ import '../index.css'
 
 const Wrapper = () => (
         <div>
-        <section className="hero nav-header is-small is-dark">
+        <section className="hero nav-header is-small">
           <div className="hero-body">
             <div className="container">
               <nav className="navbar" role="navigation" aria-label="main navigation">
@@ -35,7 +35,13 @@ const Wrapper = () => (
     <Main />
     <Portfolio />
     <Contact />
-
+      <footer className="footer">
+        <div className="content">
+          <p className="title has-text-centered">
+            ©2020 Kevin Hall
+          </p>
+        </div>
+      </footer>
         </div>
       );
 

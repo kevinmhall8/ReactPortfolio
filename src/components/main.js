@@ -15,9 +15,9 @@ const Main = () => (
                   Program. <br /> I look forward to being a part of your next web development project!</p>
                   <br />
                   <div className="buttonsList">
-                  <button className="button is-rounded aboutButtons">My GitHub</button>
-                  <button className="button is-rounded aboutButtons">My LinkedIn</button>
-                  <button className="button is-rounded aboutButtons">Resume PDF</button>
+                  <button className="button is-rounded aboutButtons" a href="https://github.com/kevinmhall8"><i class="fab fa-github"></i></button>
+                  <button className="button is-rounded aboutButtons"><i class="fab fa-linkedin"></i></button>
+                  <button className="button is-rounded aboutButtons">Resume</button>
                   </div>
                 </div>
                 </div>
