@@ -119,6 +119,15 @@ input {
   
 }
 
+.linkedin {
+  cursor: no-drop;
+}
+
+.fillhero {
+  animation: bgcolorchange 10s infinite alternate;
+  height: 125px;
+}
+
 footer {
   animation: bgcolorchange 10s infinite alternate;
   position: relative;

@@ -16,7 +16,7 @@ const Main = () => (
                   <br />
                   <div className="buttonsList">
                   <button className="button is-rounded aboutButtons" a href="https://github.com/kevinmhall8"><i class="fab fa-github"></i></button>
-                  <button className="button is-rounded aboutButtons"><i class="fab fa-linkedin"></i></button>
+                  <button className="button is-rounded aboutButtons linkedin"><i class="fab fa-linkedin"></i></button>
                   <button className="button is-rounded aboutButtons">Resume</button>
                   </div>
                 </div>
@@ -25,6 +25,16 @@ const Main = () => (
                   <img id="mug" className="borderEffect" src={ProfilePic} alt="pic"/>
                   </div>
               </div>
+              {/* <div className="columns">
+              <h2 className="is-size-2 is-centered">Education</h2>
+              <div className="column is-half">
+                <h2 className="is-size-2 is-centered">UCLA Extension</h2>
+
+              </div>
+              <div className="column is-half">
+                <h2>UCLA School of Theater, Film and Television</h2>
+              </div>
+              </div> */}
             </div>
           </div>
         </section>
