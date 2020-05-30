@@ -15,9 +15,13 @@ const Main = () => (
                   Program. <br /> I look forward to being a part of your next web development project!</p>
                   <br />
                   <div className="buttonsList">
-                  <button className="button is-rounded aboutButtons" a href="https://github.com/kevinmhall8"><i class="fab fa-github"></i></button>
+                  <a href="https://github.com/kevinmhall8">
+                  <button className="button is-rounded aboutButtons" ><i class="fab fa-github"></i></button>
+                  </a>
                   <button className="button is-rounded aboutButtons linkedin"><i class="fab fa-linkedin"></i></button>
+                  <a href="Resume.pdf">
                   <button className="button is-rounded aboutButtons">Resume</button>
+                  </a>
                   </div>
                 </div>
                 </div>

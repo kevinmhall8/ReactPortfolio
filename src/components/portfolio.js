@@ -24,12 +24,14 @@ const Portfolio = () => (
                         less time hunting down details and more time enjoying your curated and scheduled watchlist.
                       </p> <br />
                     <div className="buttons is-centered">
-                      <button className="button is-rounded" onclick="window.location.href='https://yankidank.github.io/TV-Tracker/';">
+                    <a href="https://yankidank.github.io/TV-Tracker/"> <button className="button is-rounded">
                         <span>Deployed</span>
-                      </button>
-                      <button className="button is-rounded" onclick="window.location.href='https://github.com/yankidank/TV-Tracker';">
+                      </button></a>
+                      <a href="https://github.com/yankidank/TV-Tracker">
+                      <button className="button is-rounded">
                       <i class="fab fa-github"></i>
                       </button>
+                      </a>
                     </div>
                     </div>
                     </div>
@@ -50,12 +52,14 @@ const Portfolio = () => (
                         subjects. Challenge other players to beat your high score, and share your experiences using an innovative chat feature as you play.
                       </p> <br />
                     <div className="buttons is-centered">
-                      <button className="button is-rounded" onclick="window.location.href='https://intense-earth-41726.herokuapp.com/';">
+                    <a href="https://intense-earth-41726.herokuapp.com/">
+                      <button className="button is-rounded">
                         <span>Deployed</span>
-                      </button>
-                      <button className="button is-rounded" onclick="window.location.href='https://github.com/nickrayj45/WeTrivia';">
+                      </button> </a>
+                      <a href="https://github.com/nickrayj45/WeTrivia">
+                      <button className="button is-rounded" onclick="window.location.href='';">
                       <i class="fab fa-github"></i>
-                      </button>
+                      </button></a>
                     </div></div>
                     </div>
                 </div>
